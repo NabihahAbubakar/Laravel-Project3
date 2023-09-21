@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.254) url(../img/bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* nav bar */
+
+
+
+
+/* .navcontainer{
+    height:80px;
+    width:100%;                               
+} */
+
+.nav{
+    height:80px;
+    width:100%;
+    background-color: rgba(255, 255, 0, 0.722);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.logoimg img{
+    width:4.2vw;
+    height: 9vh;
+    margin-right: 0.5rem;
+   
+}
+.logo h1{
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-right: 20rem;            /*set when adding icons */
+}
+.logo h1 span{
+    font-size: 1.2vw;
+    font-family: 'Sofia';
+    text-transform: capitalize;
+    display: block;
+    color: rgb(152, 128, 6);
+}
+.nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+    gap: 4rem;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav ul li a:hover{
+    
+    color: rgb(152, 128, 6);
+   
+}
+
+
+
+/* form */
+
+.container {
+    display: inline-block;
+    width: 35vw;
+    height: 85vh;
+    /* max-width: 400px;
+    min-width: 400px; */
+    padding: 20px;
+    margin-top: 1rem;
+    background-color: #00000084;
+    border-radius: 5px;
+   
+}
+
+h2 {
+    text-align: center;
+    color: rgba(255, 255, 0, 0.722);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 0, 0.722);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 2.2vh;
+}
+
+textarea {
+    /* resize: vertical;   what does it mean */
+    height: 20vh;
+}
+
+.btn {
+    background-color: #f5d800a3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 0, 0.722);
+}
+
+.cupcake{
+    display: inline-block;
+   margin-left: 15rem;
+   margin-right: 15rem;
+  
+}
+
+/* Task 1 */
+.equal{
+    color: rgb(0, 255, 30);
+ }
+ 
+  .null, .wrong{
+    color: red;
+ 
+  }
+/* home */
+.welcome {
+    font-family: 'Sofia';
+    font-size: 35px;
+    text-align:  center;
+    margin: 120px 230px;
+    color: rgba(255, 255, 0, 0.722); 
+    border: 1px solid yellow;
+    padding: 30px;
+    
+}
+
+
+
+.welcome button{
+    box-sizing: border-box;
+    padding: 15px 30px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family:Verdana,Tahoma, sans-serif;
+    margin-top: 4vh;
+    
+}
+.welcome button a {
+text-decoration: none;
+ color: yellow; 
+}
+.welcome button a:hover{
+    font-size: 15.5px;
+
+}
+
+.about{
+    background-color: rgba(255, 255, 0, 0.722);
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+}
+
+.about .left{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.727);
+    padding: 30px;
+}
+.about .left #p1{
+    color: #0101017a;
+    margin-bottom: 10px;
+}
+.about .left h1{
+    color: #000000b8;
+}
+.about .left #p2{
+    color: #0101017a;
+    margin-top : 20px;
+}
+.about .right{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.727);
+}
+#cake1{
+    margin-right: -60px;
+}
+#cake3{
+    margin-right: -60px;
+    margin-bottom: -40px;
+    z-index: 0;
+}
+
+
+
+.class{
+    padding: 100px;
+}
